@@ -182,9 +182,9 @@ def plot_trials(csv):
 	ax.plot(trial, rate, label="Reliability Rate", color='blue')
 
 
-	###############
+	################
 	### Test results
-	###############
+	################
 
 	ax = plt.subplot2grid((6,6), (4,4), colspan=2, rowspan=2)
 	ax.axis('off')
